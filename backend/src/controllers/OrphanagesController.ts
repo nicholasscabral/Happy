@@ -64,7 +64,7 @@ export default {
             latitude: Yup.number().required(),
             longitude: Yup.number().required(),
             about: Yup.string().required().max(300),
-            intructions: Yup.string().required(),
+            instructions: Yup.string().required(),
             opening_hours: Yup.string().required(),
             open_on_weekends: Yup.boolean().required(),
             images: Yup.array(
